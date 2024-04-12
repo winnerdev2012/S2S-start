@@ -1,0 +1,40 @@
+{
+  "brandMappings": [
+    {
+      "brand": "default",
+      "fields": [
+        {
+          "akeneoAttribute": "stusa_brand",
+          "shopifyField": "vendor",
+          "defaultValue": "Default Brand",
+          "valueMapping": {
+            "bds": "BDS Suspension"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "bds",
+      "fields": [
+        {
+          "akeneoAttribute": "PVG_BDS_Front_Lift_Method",
+          "shopifyMetafield": {
+            "namespace": "pim",
+            "key": "front_lift_method",
+            "type": "single_line_text_field"
+          },
+          "defaultValue": "No Front Lift Method"
+        },
+        {
+          "akeneoAttribute": "PVG_BDS_Rear_Lift_Height",
+          "shopifyMetafield": {
+            "namespace": "pim",
+            "key": "rear_lift_height",
+            "type": "single_line_text_field"
+          },
+          "defaultValue": "No Rear Lift Height"
+        }
+      ]
+    }
+  ]
+}
